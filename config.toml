@@ -1,4 +1,4 @@
-title = "Notre-Dame de Paris"
+title = "GabyRoos.com"
 baseURL = "https://example.com"
 languageCode = "en-us"
 theme = "ananke"
@@ -6,8 +6,7 @@ resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 15 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+Paginate = 15
 enableRobotsTXT = true
 
 background_color_class = "bg-gray"
@@ -25,7 +24,7 @@ background_color_class = "bg-gray"
 
 [params]
   favicon = "favicon.ico"
-  site_logo = "logo.png"
+  site_logo = "/images/logo.png"
   description = "Video Editor"
   facebook = "https://www.facebook.com/gabriellaroosfilm/"
   instagram = "https://www.instagram.com/gabyroos_film/"
@@ -38,6 +37,9 @@ background_color_class = "bg-gray"
   stackoverflow = ""
   rss = ""
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-dark-gray"
+  background_color_class = "bg-gray"
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 2
+  body_classes = 'avenir bg-gray'
+  post_content_classes = 'avenir'
+  custom_css=['custom.css']
