@@ -1,6 +1,6 @@
 ---
 description: ""
-featured_image: ""
+featured_image: "/images/filmography/PaintByNumbers_thumb.png"
 tags: ["Editor", "Colourist"]
 title: "Hybrid Minds - Paint By Numbers (ft. Charlotte Haining)"
 order: 2
