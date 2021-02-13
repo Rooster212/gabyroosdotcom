@@ -1,0 +1,29 @@
+name: Build and Push to Docker registry
+
+on:
+  push:
+    - master
+
+
+jobs:
+  build-and-push:
+    name: Build and Push
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install Brew
+        run: brew install hugo
+
+      - name: Build site
+        run: hugo --minify --verbose
+
+      - name: Build Docker container and push
+        uses: mr-smithers-excellent/docker-build-push@v5
+        with:
+          image: Rooster212/gabyroosdotcom:latest
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }} 
