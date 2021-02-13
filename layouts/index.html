@@ -1,7 +1,27 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header-home.html" . }}
+{{ end }}
+
 {{ define "main" }}
 
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    {{ .Content }}
-  </article>
+<div class="home-body">
+  <video id="bgvid" playsInline autoPlay muted loop>
+      <source src="/HomePageShowreel_bw.mp4" type="video/mp4"/>
+  </video>
 
+  <div class="home-overlay disable-text-highlight">
+      <h2 id="video-editor">Video Editor</h2>
+      <h2 id="location-text">Cambridge, UK</h2>
+      <div class="to-showreel-button-container">
+          <a target="_blank" href="/filmography/showreel/" class="to-showreel-button">
+              Play Showreel
+          </a>
+      </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "footer" }}
+<div></div>
 {{ end }}

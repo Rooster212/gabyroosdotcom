@@ -1,9 +1,5 @@
 ---
-title: " "
+title: "Video Editor"
 featured_image: ''
-description: ""
+description: "Cambridge, UK"
 ---
-
-# Video Editor
-
-## Cambridge, UK

@@ -11,7 +11,8 @@ hugo run server
 ## Running in Docker
 
 ```bash
-docker 
+docker build -t gabyroosdotcom:latest .
+docker run -p 8020:80 gabyroosdotcom:latest
 ```
 
 ## Licence
