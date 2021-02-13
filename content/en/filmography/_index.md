@@ -1,5 +1,6 @@
 ---
 title: "Filmography"
 description: ''
-featured_image: ''
+featured_image: '/images/filmography/WatchtowerOfBrighton_FirstFrame_BW.png'
+type: page
 ---

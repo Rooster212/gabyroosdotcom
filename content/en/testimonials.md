@@ -3,7 +3,6 @@ title: "Testimonials"
 featured_image: "images/notebook.jpg"
 description: ""
 type: page
-menu: main
 ---
 
 

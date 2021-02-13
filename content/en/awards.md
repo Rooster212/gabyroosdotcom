@@ -1,9 +1,8 @@
 ---
 title: "Awards"
 description: ""
-featured_image: '/images/28.jpg'
+featured_image: '/images/filmography/WatchtowerofBrighton.png'
 type: page
-menu: main
 ---
 
 ## A Crown Fit For A Prince

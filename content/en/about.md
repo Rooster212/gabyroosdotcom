@@ -3,7 +3,6 @@ title: "About"
 description: ""
 featured_image: '/images/gabyroos.jpg'
 type: page
-menu: main
 ---
 
 Born and raised in Cambridge, Gabriella Roos is a Film editor, who studied at Brighton Film School. From the age of 14, she was sure she wanted to be a photographer and never went anywhere without her camera. However, whilst doing an A Level in Film Studies, her passion soon shifted. She was then accepted at Brighton Film School in 2015 to pursue a more practical course.

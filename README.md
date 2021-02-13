@@ -1,6 +1,6 @@
 # GabyRoos.com - Version 2
 
-* [Hugo](https://gohugo.io/) - install via Brew `brew install hugo`
+Put together using the amazing static site generator [Hugo](https://gohugo.io/)!
 
 ## Running locally/development
 

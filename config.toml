@@ -11,6 +11,28 @@ enableRobotsTXT = true
 
 background_color_class = "bg-gray"
 
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Awards"
+    url = "/awards/"
+    weight = 2
+  [[menu.main]]
+    name = "Filmography"
+    url = "/filmography/"
+    weight = 3
+  [[menu.main]]
+    name = "Testimonials"
+    url = "/testimonials/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
 [languages]
   [languages.en]
     title = "Gabriella Roos"
