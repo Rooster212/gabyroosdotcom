@@ -2,7 +2,8 @@ name: Build and Push to Docker registry
 
 on:
   push:
-    - master
+    branches:
+      - master
 
 
 jobs:
