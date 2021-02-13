@@ -5,7 +5,6 @@ theme = "ananke"
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
 Paginate = 15
 enableRobotsTXT = true
 
