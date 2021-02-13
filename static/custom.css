@@ -3,7 +3,6 @@
     --gaby-darker-red: #770000;
 }
 
-
 header h1,
 header h2,
 nav {
@@ -105,25 +104,6 @@ ul {
     flex-direction: column;
     justify-content: center;
 }
-/* .home-bod #location-text {
-    font-size: 4vw;
-    margin-bottom: 4vw;
-}
-
-.home-body .to-showreel-button-container {
-    display: flex;
-    justify-content: center;
-
-    
-}
-.home-body .to-showreel-button {
-    text-decoration: none;
-    color: $menu-bar-text-hover-color;
-    font-size: 3vw;
-    text-align: center;
-    border: 4px solid $menu-bar-text-hover-color;
-    padding: 10px 20px;
-} */
 
 video#bgvid {
     position: fixed;
