@@ -28,5 +28,5 @@ jobs:
           image: rooster212/gabyroosdotcom
           tags: latest
           registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }} 
+          username: rooster212
+          password: ${{ secrets.GH_REGISTRY_AUTH_TOKEN }} 
