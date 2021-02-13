@@ -25,7 +25,8 @@ jobs:
       - name: Build Docker container and push
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: Rooster212/gabyroosdotcom:latest
+          image: rooster212/gabyroosdotcom
+          tags: latest
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }} 
