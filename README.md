@@ -12,7 +12,7 @@ hugo run server
 
 Build the static site:
 ```bash
-hugo
+hugo --minify --verbose
 ```
 
 ```bash
