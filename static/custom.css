@@ -1,3 +1,9 @@
+:root {
+    --gaby-red: #c61d1d;
+    --gaby-darker-red: #770000;
+}
+
+
 header h1,
 header h2,
 nav {
@@ -80,7 +86,11 @@ ul {
 }
 
 .gaby-red {
-    color: #c61d1d;
+    color: var(--gaby-red);
+}
+
+.gaby-darker-red {
+    color: var(--gaby-darker-red)
 }
 
 .home-body .home-overlay {
@@ -170,11 +180,12 @@ video#bgvid {
     -ms-flex-pack: center;
     justify-content: center;
 }
+
 .home-body .home-overlay .to-showreel-button-container .to-showreel-button {
     text-decoration: none;
-    color: #c61d1d;
+    color: var(--gaby-red);
     font-size: 3vw;
     text-align: center;
-    border: 4px solid #c61d1d;
+    border: 4px solid var(--gaby-red);
     padding: 10px 20px;
 }
