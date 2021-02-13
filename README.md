@@ -10,9 +10,14 @@ hugo run server
 
 ## Running in Docker
 
+Build the static site:
+```bash
+hugo
+```
+
 ```bash
 docker build -t gabyroosdotcom:latest .
-docker run -p 8020:80 gabyroosdotcom:latest
+docker run --rm -p 8020:80 gabyroosdotcom:latest
 ```
 
 ## Licence
