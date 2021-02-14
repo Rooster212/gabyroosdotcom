@@ -15,9 +15,15 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 1
 
-      - name: Install Brew
-        run: brew install hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true
 
       - name: Build site
         run: hugo --minify --verbose
