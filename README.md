@@ -1,4 +1,4 @@
-# GabyRoos.com - Version 2
+# GabyRoos.com - https://gabyroos.com
 
 Put together using the amazing static site generator [Hugo](https://gohugo.io/)!
 
