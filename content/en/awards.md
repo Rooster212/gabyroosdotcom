@@ -6,7 +6,7 @@ type: page
 ---
 
 ## A Crown Fit For A Prince
-{{< figure src="/images/awards/CrownPoster_CAMBSFILMFEST.png" >}}
+{{< figure src="/images/awards/CrownPoster_CAMBSFILMFEST.jpg" >}}
 
 Gabriella worked with a very talented crew and took on the role of Editor and Colourist as well as a few other minor roles on A Crown Fit For a Prince.
 Below are the awards and festival selections A Crown Fit For A Prince has received so far.
@@ -21,7 +21,7 @@ Below are the awards and festival selections A Crown Fit For A Prince has receiv
 ## Hybrid Minds - Paint By Numbers (ft. Charlotte Haining)
 
 #### Drum & Bass Arena Awards
-{{< figure src="/images/awards/Drum&BassArenaAwards.jpeg" >}}
+{{< figure src="/images/awards/Drum&BassArenaAwards.jpg" >}}
 
 While working on A Crown Fit For A Prince, Gaby also worked as Editor and Colourist, on a music video for highly acclaimed duo, Hybrid Minds. The video has had over 200K views on Youtube and came fourth in the ‘best music video’ category in the Drum & Bass Arena Awards. Considering their video was the only student production entered in to the competition, the crew were pretty chuffed to even be nominated, let alone come fourth behind the likes of groups such as Chase & Status.
 
